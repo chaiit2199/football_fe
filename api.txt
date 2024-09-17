@@ -1,0 +1,106 @@
+// api giải đấu
+[
+  {
+    "id": "ngoai-hang-anh",
+    "name": "hang anh anh",
+    "national": "Anh",
+    "image": "https://mages/hang-anh"
+  },
+  {
+    "id": "2077",
+    "name": "chau phi",
+    "national": "Chau phi",
+    "image": "https://mages/chauphi"
+  }
+]
+// api chi tiết giải đấu
+[
+  {
+    "id": "ngoai-hang-anh",
+    "name": "hang anh anh",
+    "national": "Chau phi",
+    "image": "https://mages/hang-anh",
+    "season": [
+      {
+        "start": "",
+        "end": "",
+        "cup": ""
+      }
+    ],
+    "stangding": [
+      {
+        "name": "",
+        "position": interger,
+        "point": interger,
+        "goal""",
+        "hieu_so_goal": interger
+      }
+    ],
+    "schedule": [
+      {
+        "doiA": "A",
+        "imageA": "https://imageA",
+        "imageB": "https://imageB",
+        "doiB": "B",
+        "start_date": "",
+      }
+    ],
+    // Thêm thông kê và tin tức nếu có 
+  }
+]
+
+// api chi tiết trận đấu
+[
+  {
+    "id": "1999",
+    "name": "hang anh anh",
+    "national": "Chau phi",
+    "cup": "Chau phi",
+    "image": "https://mages/hang-anh",
+    "start_date": "10/10/2024",
+    "ĐoiA": "A",
+    "ĐoiB": "B",
+    "imageA": "imageA",
+    "imageB": "imageB",
+    "tintuc": [
+      {
+        "title": "",
+        "image": "",
+        "desc": ""
+      },
+      {
+        "title": "",
+        "image": "",
+        "desc": ""
+      }
+    ],
+    "doihinhrasan": [
+      Phần này nếu có thì trả ra img cũng được
+    ],
+    "Nhận định": "AI chat",
+  }
+]
+
+
+// api lịch thi đấu
+[
+  {
+    "start_date": "10/10/2024",
+    "giai_dau": "giai dau",
+    "id tran đấu": "1999", // lấy từ id trận đấu đấu
+    "ĐoiA": "A",
+    "ĐoiB": "B",
+    "imageA": "imageA",
+    "imageB": "imageB",
+  },
+  {
+    "start_date": "10/10/2024",
+    "giai_dau": "giai dau",
+    "id_giai_dau": "chauphi", // lấy từ id giải đấu
+    "ĐoiA": "A",
+    "ĐoiB": "B",
+    "imageA": "imageA",
+    "imageB": "imageB",
+  }
+]
+// api tin tuc (Có thì qúa tốt)

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply leading-tight;
+}
+
+.container {
+  max-width: 1312px;
+  @apply px-4 w-full m-auto;
+}
+
+.clamp-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.socical {
+  @apply flex;
+
+  >li {
+    @apply ml-4;
+
+    img {
+      @apply w-4 h-4 scale-100 transition-all hover:scale-125;
+    }
+  }
+}
+
+@import "./scss/variable";
+@import "./scss/reset";
+@import "./scss/form";
+@import "./scss/header";
+@import "./scss/list";
